@@ -10,8 +10,8 @@ class Waiter extends React.Component {
     return (
       <div className={styles.component}>
         <h2 className={styles.title}>Waiter view</h2>
-        <Link to={`${process.env.PUBLIC_URL}/waiter/waiterorder`} activeClassName='active'>Waiter order</Link>
-        <Link to={`${process.env.PUBLIC_URL}/waiter/waiterordernew`} activeClassName='active'>Waiter order new</Link>
+        <Link to={`${process.env.PUBLIC_URL}/waiter/order`} activeClassName='active'>Waiter order</Link>
+        <Link to={`${process.env.PUBLIC_URL}/waiter/order/new`} activeClassName='active'>Waiter order new</Link>
 
       </div>
     );
